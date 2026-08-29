@@ -7,13 +7,14 @@ body{
 
     margin: 1%;
     color: white;
-    font-family: Impact , Charcoal , sans-serif ;
+    font-family: sans-serif ;
 }
 
 h1{
 
  text-align: center;
 border-bottom-style: solid;
+letter-spacing: 5%;
 
 }
 
@@ -21,13 +22,18 @@ header{
     text-align: center;
     border-style: hidden;
     background-color: #545454;
-
-
 }
 
+section{
+
+    border-style: hidden;
+    background-color: #545454;
+    padding:1%;
+
+}
 h2{
 
-margin-top: 2%;
+margin-top: 5%;
 text-decoration: underline;
 
 }
