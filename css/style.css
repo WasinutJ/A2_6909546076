@@ -1,5 +1,5 @@
 body{
-
+    background-image: url(../media/background.png);
     background-color: #1d1d1d;
 
 }
@@ -22,6 +22,7 @@ header{
     text-align: center;
     border-style: hidden;
     background-color: #545454;
+    padding: 1%;
 }
 
 section{
@@ -46,11 +47,12 @@ img {
     border-color: white;
     
 }
-
-
-
-p{
-
+p , ol , ul{
     font-size: large;
-    line-height: 120%;
+    line-height: 130%;
+}
+
+.under{
+    text-align: center;
+    font-weight: bold;
 }
