@@ -5,48 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Responsive Learning Portfolio</title>
 </head>
 
 <body class="poppins-regular">
 
-    <header class="container rounded-5 border border-5 border-primary d-flex flex-column align-items-center justify-content-center">
+    <header
+        class="container rounded-5 border border-5 border-primary d-flex flex-column align-items-center justify-content-center">
         <h1 class="isometra-regular fw-bold">WAINUT JANSAWANG</h1>
         <p class="text-center">
             CS Major student
-            from<a href="https://tu.ac.th">Thammasat University.</a><br>
-            student's ID id: <b>6909546076</b>
+            from<a href="https://tu.ac.th"> Thammasat University.</a><br>
+            student's ID: <b>6909546076</b>
         </p>
-     <img src="./media/My_Pic_3.png" class="rounded" height="300" alt="My Picture">
+        <img src="./media/My_Pic_3.png" class="rounded" height="300" alt="My Picture">
     </header>
 
-    
 
-    <h1>My Portfolio</h1>
-    <h2>Learning Portfolio website I have built </h2>
-    <img src="./media/Port_1.png" height="500" alt="My Portfolio website">
-    <h3>Type: Course assignment Date: 30 August 2026<br>
-        Role: I developed the website.<br>
-        Description: It's a Learning portfolio website I developed as the Assignment 1 of CS100 program.<br>
-        Skills: HTML, CSS<br>
-        Reflection: <br>I developed My Learning portfolio website.<br>
-        I learned about how to build a website in HTML and Style it in CSS.<br>
-        Challenge I found is styling is'nt quite my thing. So I'm using others website as a reference.<br>
-        In the future I will learn more about styling and make my website more beautiful.<br>
-    </h3>
 
-    <h2>Robotic Thai Youth League 2024-2025 </h2>
-    <img src="./media/Port_2.jpg" height="500" alt="Robotic Thai Youth League 2024-2025">
-    <h3>Type:Certificate  Date:9 December 2024<br>
-        Role:Robot Programmer<br>
-        Description: Robot Wall line-track competition in 1 hour.<br>
-        Skills:Code block programming, Robot block assembling.<br>
-        Reflection: <br>I Programmed a robot to participate in the competition.<br>
-        I learned about robot programming and assembly.<br>
-        Challenge I found was the time limit for the competition.<br>
-        In the future I would like to learn more about robot programming and assembly.<br>
-    </h3>
+    <h1 class="container-fluid justify-content-center text-center mt-2 mb-2 bg-primary text-white"> My Portfolio</h1>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+
+                <div class="card shadow-lg rounded-5 border border-5 border-primary">
+                    <div class="card-body p-4 p-md-5 text-center">
+
+                        <h2 class="card-title fw-bold text-primary mb-4">
+                            Learning Portfolio Website I Have Built
+                        </h2>
+
+                        <img src="./media/Port_1.png" class="img-fluid rounded-4 shadow-sm mb-4"
+                            style="max-height: 300px;" alt="My Portfolio website">
+
+                        <div class="text-start">
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="badge text-bg-primary fs-6">Course assignment</span>
+                                <span class="badge text-bg-secondary fs-6">30 August 2026</span>
+                            </div>
+
+                            <ul class="list-group list-group-flush mb-4">
+                                <li class="list-group-item">
+                                    <strong class="text-primary">Role:</strong> I developed the website.
+                                </li>
+                                <li class="list-group-item">
+                                    <strong class="text-primary">Description:</strong>It's a Learning portfolio website I developed as Assignment 1 of the CS100 program.
+                                </li>
+                                <li class="list-group-item">
+                                    <strong class="text-primary">Skills:</strong>
+                                    <span class="badge rounded-pill text-bg-warning">HTML</span>
+                                    <span class="badge rounded-pill text-bg-info">CSS</span>
+                                </li>
+                            </ul>
+
+                            <div class="alert alert-primary mb-0" role="alert">
+                                <h4 class="alert-heading h5">REFLECTION</h4>
+                                <p>I developed my Learning portfolio website.<br>
+                                I learned how to build a website in HTML and style it in CSS.<br>
+                                    The challenge I found is that styling isn't quite my thing,
+                                    so I'm using other websites as a reference.
+                                </p>
+                                <hr>
+                                <p class="mb-0">
+                                    In the future I will learn more about styling and make my website more beautiful.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="container-sm rounded-5 border border-5 border-primary d-flex flex-column align-items-center justify-content-center">
+        <h2>Robotic Thai Youth League 2024-2025 </h2>
+        <img src="./media/Port_2.jpg" height="300" alt="Robotic Thai Youth League 2024-2025">
+        <h3>Type:Certificate Date:9 December 2024<br>
+            Role:Robot Programmer<br>
+            Description: Robot Wall line-track competition in 1 hour.<br>
+            Skills:Code block programming, Robot block assembling.<br>
+            Reflection: <br>I Programmed a robot to participate in the competition.<br>
+            I learned about robot programming and assembly.<br>
+            Challenge I found was the time limit for the competition.<br>
+            In the future I would like to learn more about robot programming and assembly.<br>
+        </h3>
+    </div>
 
 </body>
 
